@@ -9,6 +9,10 @@
   align-items: center;
   height: 100vh;
 }
+.likebutton
+{
+  background: #131313;
+}
 
 .gradientText0 {
   background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
@@ -327,6 +331,7 @@
   background-color: #131313;
   text-decoration: none;
   border-radius: 10px;
+  border: 2px solid green;
   transition: color 0.15s ease, border-color 0.15s ease;
   overflow: none;
   padding: 1rem;

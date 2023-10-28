@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import { NextPage } from "next";
 import UserStatus from "../components/user-status";
 import StatusEvents from "../components/statusEvents";
+import userProfile from "../components/userProfile";
 import { useEffect, useState } from "react";
 import Lottie from "lottie-react";
 import loadingLottie from "../public/loadingLottie.json";
@@ -36,12 +37,17 @@ const Home: NextPage = () => {
 
   return (
     <main className={styles.main}>
+              
+             
+            
+
       <div className={styles.container}>
         <div className={styles.statusContainer}>
           <UserStatus />
         </div>
         <h3>Status Feed:</h3>
         <StatusEvents />
+        <userProfile />
       </div>
     </main>
   );
